@@ -1,0 +1,102 @@
+/*navigationbar*/
+#logo{
+	height: 15vh;
+}
+
+#main-nav{
+	margin-right: 100px;
+}
+
+#navitem{
+		position: relative;
+		text-decoration: none;
+		font-size: 13.5px;
+		letter-spacing: 0.5px;
+		padding: 0 10px;
+		font-weight: bold;
+}
+
+#navitem:after{
+		content: "";
+		position: absolute;
+		background-color: lightgoldenrodyellow;
+		height: 3px;
+		width: 0;
+		left: 0;
+		bottom: -10px;
+		transition: 0.3s;
+}
+
+#navitem:hover:after{
+	width: 100%;
+}
+
+/*slider*/
+#tdg-img{
+	height: 750px;
+	width: 1500px;
+}
+
+#audio{
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 40%;
+}
+
+/*ebook*/
+#images_videos{
+	position: relative;
+	box-shadow: 5px 5px 20px black;
+}
+
+#ebook-col{
+	margin-left: 80px;
+}
+#image{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+#overlay{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, .8);
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: .3s ease;
+}
+
+#images_videos:hover #overlay{
+	height: 50%;
+}
+
+#text{
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+/*history*/
+#history-row{
+	padding: 50px;
+}
+#history-text{
+	padding: 45px;
+}
+#history-img{
+	height: 350px;
+	width: 450px;
+}
+
+
+
+
